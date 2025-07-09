@@ -53,7 +53,7 @@
                 @method('PATCH')
                 <button type="submit"
                         class="w-full {{ $product->is_active ? 'bg-red-600 hover:bg-red-700' : 'bg-blue-600 hover:bg-blue-700' }} text-white py-2 rounded transition">
-                    {{ $product->is_active ? 'Desativar' : 'Ativar' }}
+                    {{ $product->is_active ? 'Deactivate' : 'Activate' }}
                 </button>
             </form>
         </div>

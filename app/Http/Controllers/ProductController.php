@@ -127,6 +127,6 @@ class ProductController extends Controller
         $product->is_active = !$product->is_active;
         $product->save();
 
-        return redirect()->route('products.manage')->with('message', 'Produto atualizado com sucesso.');
+        return redirect()->route('products.manage')->with('message', 'Product updated successfully.');
     }
 }
